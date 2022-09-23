@@ -131,3 +131,17 @@ ul {
     background: #2A7AE4;
     border: none;
 }
+
+/*  TABLET */
+@media screen and (max-width: 768px) {
+    .nosotros {
+        flex-direction: column;
+    }
+
+    .contacto {
+        width: 60vw;
+    }
+    .button {
+        width: 8rem;
+    }
+}

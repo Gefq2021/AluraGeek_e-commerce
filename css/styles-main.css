@@ -34,7 +34,6 @@
     width: 100%;
     padding: 0 .5rem;
     display: flex;
-    /* justify-content: flex-start; */
     flex-wrap: wrap;
     column-gap: .5rem;
     row-gap: 1.5rem;
@@ -75,4 +74,20 @@
     line-height: 19px;
     color: #2A7AE4;
     text-decoration: none;
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+    .producto:nth-last-child(1) {
+        display: none;
+    }
+    
+    .producto:nth-last-child(2) {
+        display: none;
+    }
+
+    .producto, .skill>img {
+        width: 164px;
+    }
+
 }

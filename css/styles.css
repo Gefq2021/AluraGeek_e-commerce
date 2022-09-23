@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    /* scroll-behavior: smooth; */
 }
 
 *, 
@@ -77,6 +76,7 @@ body {
     height: 22rem;
     background-image: url("../img/banner.png");
     background-size: cover;
+    background-position: center;
     padding: 2rem 0;
 }
 
@@ -111,5 +111,23 @@ body {
     background: #2A7AE4;
     color: #FFFFFF;
     border: none;
+}
+
+/*  TABLET */
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 100px;
+    }
+
+    .buscador-barra {
+        width: 17rem;
+    }
+     .login {
+        width: 10rem;
+     }
+
+     .banner__consola {
+        width: 7.5rem;
+     }
 }
 
