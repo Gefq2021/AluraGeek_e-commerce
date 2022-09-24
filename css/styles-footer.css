@@ -154,7 +154,7 @@ ul {
 
 
 /* MOBILE */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 411px) {
     .contenido__footer {
         width: 95%;
         padding: 2rem 0;
