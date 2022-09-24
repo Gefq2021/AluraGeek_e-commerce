@@ -1,0 +1,49 @@
+
+.main__login {
+    width: 100%;
+    /* min-height: 450px; */
+    background-color: #f5f5f5;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__login {
+    width: 35%;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 1rem;
+}
+
+.form__titulo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #464646;
+    text-align: center;
+}
+
+.form__email,
+.form__password {
+    min-height: 63.13px;
+    background: #FFFFFF;
+    padding: .5rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A2A2A2;
+    outline: none;
+}
+
+.form__button {
+    min-height: 62px;
+    background: #2A7AE4;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+}
