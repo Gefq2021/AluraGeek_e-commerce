@@ -16,6 +16,7 @@
     align-items: flex-start;
     flex: auto;
     column-gap: 9vw;
+    flex-wrap: wrap;
 }
 
 .nosotros {
