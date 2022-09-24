@@ -61,6 +61,9 @@
 
 /* MOBILE */
 @media screen and (max-width: 424px) {
+    .main__login {
+        padding: 8rem 0;
+    }
     .form__login {
         width: 80%;
     }
