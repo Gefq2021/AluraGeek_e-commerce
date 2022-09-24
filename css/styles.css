@@ -70,6 +70,7 @@ body {
     height: 2.5rem;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
+    cursor: pointer;
 }
 
 .lupa-mobile {
@@ -116,6 +117,11 @@ body {
     background: #2A7AE4;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+	background:#43b6da
 }
 
 
