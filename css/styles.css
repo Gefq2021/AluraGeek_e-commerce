@@ -21,7 +21,7 @@ body {
 }
 
 .contenedor {
-    max-width: 1136px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,7 +87,7 @@ body {
 }
 
 .banner__contenedor {
-    width: 100%;
+    width: 80%;
     height: 100%;
     color: #FFFFFF;
     padding: 0 .5rem;
@@ -124,6 +124,12 @@ body {
 	background:#43b6da
 }
 
+
+@media screen and (max-width: 1136px) {
+    .contenedor {
+        width: 100%;
+    }
+}
 
 /*  TABLET */
 @media screen and (max-width: 768px) {
