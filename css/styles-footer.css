@@ -7,7 +7,7 @@
 }
 
 .contenido__footer {
-    max-width: 1136px;
+    width: 80%;
     min-height: 23rem;
     padding: 0 .5rem;
     display: flex;
@@ -15,7 +15,7 @@
     align-content: center;
     align-items: flex-start;
     flex: auto;
-    column-gap: 9vw;
+    /* column-gap: 9vw; */
     flex-wrap: wrap;
 }
 
@@ -58,7 +58,7 @@ ul {
 }
 
 .contacto {
-    width: 35vw;
+    width: 40%;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -139,6 +139,11 @@ ul {
 }
 
 
+@media screen and (max-width: 1136px) {
+    .contenido__footer {
+        width: 100%;
+    }
+}
 
 /*  TABLET */
 @media screen and (max-width: 768px) {
