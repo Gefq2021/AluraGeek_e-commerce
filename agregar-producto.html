@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek-Agregar Producto</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles-main-nuevo-producto.css">
+    <link rel="stylesheet" href="./css/styles-footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor">
+            <nav class="nav">
+                <div class="buscador">
+                    <img src="./img/Logo.png" alt="" class="logo">
+                    <div class="buscador-barra">
+                        <input type="text" placeholder="¿Qué desea buscar?">
+                        <img src="./img/Lupa.png" alt="">
+                    </div>
+                </div>
+                <button class="button__nuevo">Menu Administrador</button>
+                <img src="./img/Lupa.png" alt=""  class="lupa-mobile">
+            </nav>
+            
+        </div>
+        
+    </header>
+
+    <main class="main__nuevo">
+        <form action="" class="form__nuevo">
+            <p class="form__titulo">Agregar nuevo producto</p>
+            <label for="" class="form__imagen form__campo">URL de la imagen
+                <input type="text" class="form__email" placeholder="Escriba su correo electronico" required>
+            </label>
+            <label for="" class="form__categoria form__campo">Categoria
+                <input type="text" class="form__email" placeholder="Consola" required>
+            </label>
+            <label for="" class="form__nombre form__campo">Nombre del producto
+                <input type="text" class="form__email" placeholder="Producto XYZ" required>
+            </label>
+            <label for="" class="form__precio form__campo">Precio del prodcuto
+                <input type="text" class="form__email" placeholder="$ 60.00" required>
+            </label>
+            <textarea name="mensaje" id="" cols="10" rows="5" class="form__mensaje" placeholder="Descripción del producto" required></textarea>
+            <button class="form__button">Agregar producto</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <section class="contenido__footer">
+            <div class="nosotros">
+                <img src="./img/Logo.png" alt="" class="logo__footer">
+            
+                <ul class="links">
+                    <li class="link"><a href="#">Quienes somos</a></li>
+                    <li class="link"><a href="#">Politica de privacidad</a></li>
+                    <li class="link"><a href="#">Programa de fidelidad</a></li>
+                    <li class="link"><a href="#">Nuestara Tiendas</a></li>
+                    <li class="link"><a href="#">Quiero ser franquiciado</a></li>
+                    <li class="link"><a href="#">Anúncie aquí</a></li>
+                </ul>
+            </div>
+            <form class="contacto">
+                <h3>Hable con nosotros</h3>
+                <div class="nombre">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Andrea Lisboa">
+                </div>
+                <textarea name="mensaje" class="mensaje" id="" cols="10" rows="5" placeholder="Escriba tu mensaje"></textarea>
+                <button class="button">Envia mensaje</button>
+            </form>
+        </section>
+
+        <section class="rodapie">
+            <p>Desarrollado por <strong>Gerardo Fabián Quispe</strong></p>
+            <span>2022</span>
+        </section>
+    </footer>
+    
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
