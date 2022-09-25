@@ -1,6 +1,18 @@
-const boton = document.querySelector(".login");
+const botonLogin = document.querySelector(".login");
+const botonTodos = document.querySelectorAll(".todo");
 
-boton.addEventListener("click", e => {
+// Para el Boton Login
+botonLogin.addEventListener("click", e => {
     console.log("REaliza tu login");
     location.href = "login.html";
 });
+
+// Para todos los enlaces de Ver todo
+botonTodos.forEach(index => {
+    index.addEventListener("click", e => {
+        console.log("Realiza tu login");
+        location.href = "productos.html";
+    });
+});
+
+
