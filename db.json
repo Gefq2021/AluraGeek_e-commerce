@@ -1,0 +1,50 @@
+{
+    "users": [
+        {
+            "name": "admin",
+            "email": "admin@gmail.com",
+            "password": "1234",
+            "id": "1"
+        },
+        {
+            "name": "user",
+            "email": "user@gmail.com",
+            "password": "1234",
+            "id": "2"
+        }
+    ],
+
+    "categories": [
+        {
+            "id": 1,
+            "name": "Star Wars"
+        },
+        {
+            "id": 2,
+            "name": "Consolas"
+        },
+        {
+            "id": 3,
+            "name": "Diversos"
+        }
+    ],
+
+    "productos": [
+        {
+            "imageUrl": "https://images.theconversation.com/files/432387/original/file-20211117-13-1nszdsk.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+            "name": "Dark Vader",
+            "price": "$50.00",
+            "categoria": "StarWars",
+            "description": "Sticker",
+            "id": "1"
+        },
+        {
+            "imageUrl": "https://pm1.narvii.com/6528/077c360a88940e7ebbd8892e690ddbb89f160422_hq.jpg",
+            "name": "stormtrooper",
+            "price": "$100.00",
+            "categoria": "StarWars",
+            "description": "stormtrooper soldado del imperio",
+            "id": "2"
+        }
+    ]
+}
