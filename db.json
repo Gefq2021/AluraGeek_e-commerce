@@ -45,14 +45,6 @@
       "id": "2"
     },
     {
-      "imageUrl": "../Logo.png",
-      "name": "Logo de AluraGeek",
-      "price": "543,22",
-      "categoria": "StarWare",
-      "descripcion": "Es el logo de AluraGeek",
-      "id": "c2fyQVf"
-    },
-    {
       "imageUrl": "https://fueradeseries.com/wp-content/uploads/2021/05/Star-Wars-The-Mandalorian.png",
       "name": "Mandalorian",
       "price": "89,23",
