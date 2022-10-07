@@ -67,14 +67,18 @@
                     <li class="link"><a href="#">Anúncie aquí</a></li>
                 </ul>
             </div>
-            <form class="contacto">
+            <form class="contacto" data-form>
                 <h3>Hable con nosotros</h3>
                 <div class="nombre">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" placeholder="Andrea Lisboa">
+                    <input type="text" name="nombre" class="envio" placeholder="Andrea Lisboa" required data-contacto >
                 </div>
-                <textarea name="mensaje" class="mensaje" id="" cols="10" rows="5" placeholder="Escriba tu mensaje"></textarea>
+                <span class="formcontato__nombre-error error-activo">Solo se permiten letras y espacios en blanco</span>
+                <textarea name="mensaje" class="mensaje envio" cols="10" rows="5" placeholder="Escriba tu mensaje" required data-contacto ></textarea>
+                <span class="formcontato__mensaje-error error-activo">Solo se permiten un maximo de 450 caracteres</span>
                 <button class="button">Envia mensaje</button>
+                <span class="mensaje__enviado error-activo">Mensaje Enviado</span>
+                <span class="mensaje__incompleto error-activo">Se deben completar todos los campos</span>
             </form>
         </section>
 
@@ -86,5 +90,6 @@
     
     <script src="./js/scripts.js"></script>
     <script type="module" src="./controllers/crear-productos-controllers.js"></script>
+    <script src="./js/validar-formulario.js"></script>
 </body>
 </html>
