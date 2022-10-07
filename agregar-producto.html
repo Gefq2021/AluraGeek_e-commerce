@@ -34,21 +34,21 @@
     </header>
 
     <main class="main__nuevo">
-        <form action="" class="form__nuevo">
+        <form action="" class="form__nuevo" data-form>
             <p class="form__titulo">Agregar nuevo producto</p>
             <label for="" class="form__imagen form__campo">URL de la imagen
-                <input type="text" class="form__email" placeholder="Escriba su correo electronico" required>
+                <input type="text" class="form__url" placeholder="Escriba la ubicación de la imagen" required data-url>
             </label>
             <label for="" class="form__categoria form__campo">Categoria
-                <input type="text" class="form__email" placeholder="Consola" required>
+                <input type="text" class="form__categ" placeholder="Consola" required data-categoria>
             </label>
             <label for="" class="form__nombre form__campo">Nombre del producto
-                <input type="text" class="form__email" placeholder="Producto XYZ" required>
+                <input type="text" class="form__nombre-producto" placeholder="Producto XYZ" required data-nombre>
             </label>
             <label for="" class="form__precio form__campo">Precio del prodcuto
-                <input type="text" class="form__email" placeholder="$ 60.00" required>
+                <input type="text" class="form__precio-producto" placeholder="$ 60.00" required data-precio>
             </label>
-            <textarea name="mensaje" id="" cols="10" rows="5" class="form__mensaje" placeholder="Descripción del producto" required></textarea>
+            <textarea name="mensaje" id="" cols="10" rows="5" class="form__mensaje" placeholder="Descripción del producto" required data-descripcion></textarea>
             <button class="form__button">Agregar producto</button>
         </form>
     </main>
@@ -85,5 +85,6 @@
     </footer>
     
     <script src="./js/scripts.js"></script>
+    <script type="module" src="./controllers/crear-productos-controllers.js"></script>
 </body>
 </html>
