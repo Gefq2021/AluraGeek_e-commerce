@@ -13,20 +13,16 @@ const nuevoProducto = (name, precio, imageUrl) => {
 
     producto.innerHTML = contenido;
     producto.classList.add("producto");
-    console.log(producto);
     return producto;
 };
 
 
 const productos = document.querySelector("[data-productos]");
-console.log(productos);
 
 const render = async () => {
-    console.log("estoy adentro");
     try {
         const listaProductos = await productosServicios.listaProductos();
         listaProductos.forEach(elemento => {
-            console.log(elemento);
             productos.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
         });
     }
